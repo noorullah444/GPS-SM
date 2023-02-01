@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:itemBackground">@color/menu_background</item>
+        <item name="android:textColor">@color/white</item>
+        <!--    <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>-->
+        <!-- Customize your theme here. -->
+        <item name="android:actionMenuTextAppearance">@style/myCustomMenuTextAppearance</item>
+        <!--    <item name="android:progressBarStyle">@color/black</item>-->
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AdAttribution">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:width">20dp</item>
+        <item name="android:height">20dp</item>
+    </style>
+    <style name="AppThemeMainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:itemBackground">@color/menu_background</item>
+        <item name="android:textColor">@color/white</item>
+        <!--    <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>-->
+        <!-- Customize your theme here. -->
+        <item name="android:actionMenuTextAppearance">@style/myCustomMenuTextAppearance</item>
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.myThem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:itemBackground">@color/menu_background</item>
+        <!--    <item name="android:textColor">@color/white</item>-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DotsDarkTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/texts_color</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#DBC311</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#DBC311
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#DBC311
+        </item>
+    </style>
+
+    <style name="MenuActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:itemBackground">@color/menu_background</item>
+    </style>
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">5.0dp</item>
+        <item name="android:tint">@color/texts_color</item>
+        <!--<item name="android:popupBackground">#FFF</item>-->
+    </style>
+
+    <style name="AppTheme.custom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/texts_color</item>
+        <item name="android:textColorPrimaryDisableOnly">#b71c1c</item>
+    </style>
+
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextAppearance</item>
+    </style>
+
+
+    <style name="DialogeTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/background_color</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+
+</resources>

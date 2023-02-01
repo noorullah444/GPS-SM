@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Speedometer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCa_uZTXZjoM2Nq86U3mkMPYek5YDx-HBg</string>
+
+    // test ad ids
+    <!--<string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="main_activity_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="native_ad_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="all_activities_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="splash_activity_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    // original ids
+    <!--<string name="app_id" translatable="false">ca-app-pub-3612093051527159~8641556596</string>
+    <string name="main_activity_banner_ad_id" translatable="false">ca-app-pub-3612093051527159/8362462790</string>
+    <string name="native_ad_id" translatable="false">ca-app-pub-3612093051527159/9088833361</string>
+    <string name="all_activities_interstitial_ad_id" translatable="false">ca-app-pub-3612093051527159/9483972779</string>
+    <string name="splash_activity_interstitial_ad_id" translatable="false">ca-app-pub-3612093051527159/9100829397</string>-->
+
+
+    <string name="rate_us_link" translatable="false">https://play.google.com/store/apps/dev?id=5611819854980639847</string>
+    <string name="find_lost_phone_link" translatable="false">https://play.google.com/store/apps/details?id=com.wonderapps.org.findphone</string>
+    <string name="text_on_pic_link" translatable="false">https://play.google.com/store/apps/details?id=com.wonderApps.TextOnPicture</string>
+    <string name="photo_editor_link" translatable="false">https://play.google.com/store/apps/details?id=com.wonderapps.photo.mixer.editor</string>
+    <string name="simple_vpn_link" translatable="false">https://play.google.com/store/apps/details?id=com.wonderApps.vpn</string>
+    <string name="zero_km" translatable="false">0</string>
+    <string name="zero_time" translatable="false">00:00:00</string>
+    <string name="timer_text" translatable="false">00:00:00</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="km_per_hr" translatable="false">KM/H</string>
+    <string name="km" translatable="false">km</string>
+    <string name="miles_per_hr" translatable="false">MPH</string>
+    <string name="knots" translatable="false">Knots</string>
+    <string name="meter_per_second" translatable="false">M/S</string>
+
+    // other apps strings
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="market_place">Market Place (Free Apps)</string>
+    <string name="simple_vpn">Simple VPN</string>
+    <string name="text_on_pic">Text On Pic</string>
+    <string name="face_flag_painting">Face Flag Painting</string>
+    <string name="sms_scheduler">SMS Scheduler</string>
+    <string name="cancel">Cancel</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="restart">Restart</string>
+    <string name="quit">Quit</string>
+    <string name="speedometer">Speedometer</string>
+    <string name="digital">Digital</string>
+    <string name="analog">Analog</string>
+    <string name="graph">graph</string>
+    <string name="map">Map</string>
+    <string name="loading">Loading…</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="time">Timer</string>
+    <string name="distance">Distance</string>
+    <string name="max_speed">Max Speed</string>
+    <string name="avg_speed">Avg Speed</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="show_speed_in_notification">Show Speed In Notification</string>
+    <string name="speed_alarm">Speed limit alarm</string>
+    <string name="set_speed_limits">Set Speed Limits</string>
+    <string name="enter_speed_limit">Enter Speed Limit</string>
+    <string name="getting_location">Getting Location…</string>
+    <string name="enable_gps_to_use_application">Enable GPS to use application</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enter_speed_first">Enter Speed First</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="rate_us">Rate us</string>
+    <string name="more_apps">More apps</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="stopTitleString">Save Track</string>
+    <string name="selectModeString">Are you sure you want to stop tracking?</string>
+    <string name="update_name">Update Name</string>
+    <string name="stopString">Stop</string>
+    <string name="saveString">Save</string>
+    <string name="update">Update</string>
+    <string name="theme_color">Theme color</string>
+    <string name="lock_screen_rotation">Lock screen rotation</string>
+    <string name="set_units">Set units</string>
+    <string name="both">Both</string>
+    <string name="show_speedometer">Show speedoMeter</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="show_the_clock">Show the clock</string>
+    <string name="show_the_compass">Show the compass</string>
+    <string name="show_the_travel_distance">Show the travel distance</string>
+    <string name="show_the_travel_time">Show the travel time</string>
+    <string name="show_the_avg_speed">Show the avg speed</string>
+    <string name="show_the_max_speed">Show the max speed</string>
+    <string name="show_speed_in_the_notification">Show speed in the notification</string>
+    <string name="show_the_battery_status">Show the battery status</string>
+    <string name="set_speed_limit_alarm">Set speed limit alarm</string>
+    <string name="normal_map">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="map_options">Map options</string>
+    <string name="date">Date</string>
+    <string name="confirm_exit">Confirm Exit</string>
+    <string name="exit">Exit</string>
+    <string name="try_our_more_apps">Try our more Apps</string>
+    <string name="running">Running</string>
+    <string name="noti_speed">Speed: </string>
+    <string name="exit_cancel">Cancel</string>
+    <string name="exit_rate_us">Rate us</string>
+    <string name="exit_quit">Quit</string>
+    <string name="find_lost_phone">Find Lost Phone</string>
+    <string name="photo_editor">Photo Editor</string>
+    <string name="greetings_card">Greetings Card</string>
+    <string name="textonpic">Textonpic</string>
+    <string name="animals_ringtones">Animals Ringtones</string>
+    <string name="photo_hider">Photo Hider</string>
+    <string name="no_internet">No Internet, Check your internet connection</string>
+    <string name="gps_signals_lost">GPS Signal Lost....Searching</string>
+    <string name="gps_off_on">GPS is turned off, turn it on to get speed</string>
+    <string name="no_record_found">No Record Found!</string>
+    <string name="gps_turned_on">GPS Turned on</string>
+    <string name="no_data">No Data</string>
+    <string name="enter_speed_limit_settings">Please Enter the speed limit</string>
+    <string name="speed_is_too_long_settings">The speed you enter is too long</string>
+    <string name="record_deleted_adapter">Record deleted!</string>
+    <string name="add_name">Please add name!</string>
+    <string name="name_updated">Name Updated!</string>
+    <string name="crashed">\"crashed \"</string>
+    <string name="not_connected_internet_digital">Not Connected to Internet, Please Check Your Internet Connection</string>
+    <string name="no_graph_data_available">No data available, start your Trip to see data...</string>
+    <string name="history_saved_map_fragment">History Saved!</string>
+    <string name="compass_not_support">Your device doesn\'t support the Compass.</string>
+    <string name="close">Close</string>
+    <string name="gps_fix_error">Location settings are inadequate, and cannot be fixed here. Fix in Settings.</string>
+    <string name="maximum_speed_limit">Maximum speed Limit reached</string>
+    <string name="name">Name:</string>
+    <string name="history_distance">Distance:</string>
+    <string name="time_history">Time:</string>
+    <string name="date_history">Date:</string>
+    <string name="kindly_rate_our_app">Kindly rate our app</string>
+    <string name="sub">Submit</string>
+    <string name="later_n">Later</string>
+    <string name="rate_us_pp">Rate us</string>
+    <string name="permanentlyDeniedmessage">You have permanently denied permissions. Turn on from Settings</string>
+    <string name="turn_on_permission">Turn On Permission</string>
+    <string name="history_map_text">Map</string>
+    <string name="history_graph_text">Graph</string>
+    <string name="start">Start</string>
+    <string name="hud">HUD</string>
+
+    <string name="rate_app_message">If you are enjoying our app, please take a moment to rate it on PlayStore. Thanks for your support!</string>
+    <string name="rate_btn_pos">Rate Now</string>
+    <string name="rate_btn_nut">Remind me latter</string>
+    <string name="rate_btn_neg">No, Thanks</string>
+    <string name="deletion_text">Are you sure to delete this trip?</string>
+    <string name="save_trip_text">Save Trip</string>
+    <string name="delete_text">Delete</string>
+    <string name="no_text">No</string>
+    <string name="yes_text">Yes</string>
+
+</resources>

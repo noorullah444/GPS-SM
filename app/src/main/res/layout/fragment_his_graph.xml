@@ -1,0 +1,335 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph_constraint_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.wonderapps.speedometer.Fragments.GraphFragment">
+
+    <TextView
+        android:id="@+id/gps_status_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gps_on_off_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gps_status_graph" />
+
+    <TextView
+        android:id="@+id/internet_status_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:textSize="11sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gps_on_off_graph" />
+
+    <TextView
+        android:id="@+id/tv_graph_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texts_color"
+        android:paddingBottom="12dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gps_on_off_graph" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/line_chart_his"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <TextView
+        android:id="@+id/distance_white_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Travel Distance:"
+        android:textColor="#fff"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his" />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="20.5km"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintEnd_toEndOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his" />
+
+    <TextView
+        android:id="@+id/timer_white_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Time:"
+        android:textColor="#fff"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/distance_white_text" />
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="00:20:17"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintEnd_toEndOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/tv_distance" />
+
+    <TextView
+        android:id="@+id/date_text_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and Time:"
+        android:textColor="#fff"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/timer_white_text" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Jul 17,2021-11:57:00"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintEnd_toEndOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/timer_text"/>
+
+    <!--<TextView
+        android:id="@+id/time_tv_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/timer_text"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <TextView
+        android:id="@+id/timer_text_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/time"
+        android:textColor="@color/white"
+        android:textSize="@dimen/white_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toEndOf="@+id/time_tv_graph"
+        app:layout_constraintStart_toStartOf="@+id/time_tv_graph"
+        app:layout_constraintTop_toBottomOf="@+id/time_tv_graph"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/distance_tv_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/zero_km"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his" />
+
+    <TextView
+        android:id="@+id/distance_white_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/distance"
+        android:textColor="@color/white"
+        android:textSize="@dimen/white_text_size"
+        app:layout_constraintEnd_toEndOf="@+id/distance_tv_graph"
+        app:layout_constraintStart_toStartOf="@+id/distance_tv_graph"
+        app:layout_constraintTop_toBottomOf="@+id/distance_tv_graph" />
+
+    <TextView
+        android:id="@+id/max_speed_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/max_speed"
+        android:textColor="@color/white"
+        android:textSize="@dimen/white_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/max_speed_tv_graph"
+        app:layout_constraintTop_toBottomOf="@+id/maximum_km_per_hr"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/max_speed_tv_graph"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="0"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintEnd_toStartOf="@+id/maximum_km_per_hr"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his" />
+
+    <TextView
+        android:id="@+id/maximum_km_per_hr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Km/h"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/max_speed_tv_graph"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/distance_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+
+        android:text="@string/km"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/distance_tv_graph"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/distance_tv_graph"
+        app:layout_constraintTop_toTopOf="@+id/distance_tv_graph"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/avg_speed_tv_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_size_portrait"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his" />
+
+    <TextView
+        android:id="@+id/max_speed_per_hr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/km_per_hr"
+        android:textColor="@color/texts_color"
+        android:textSize="@dimen/green_text_small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/avg_speed_tv_graph"
+        app:layout_constraintStart_toEndOf="@+id/avg_speed_tv_graph"
+        app:layout_constraintTop_toBottomOf="@+id/line_chart_his"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/avg_speed_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/avg_speed"
+        android:textColor="@color/white"
+        android:textSize="@dimen/white_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toEndOf="@+id/max_speed_per_hr"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/max_speed_per_hr"
+        app:layout_constraintVertical_bias="0.0" />-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="136dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="232dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="50dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="9dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="8dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

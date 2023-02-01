@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#008577</color>
+  <color name="colorPrimaryDark">#00574B</color>
+  <color name="colorAccent">#838282</color>
+
+  <color name="cyan">#ff33b5e5</color>
+<!--  <color name="green">#99cc00</color>-->
+  <color name="green">#01d444</color>
+  <color name="light_grey_trasparent">#00DDDDDD</color>
+  <string name="transparent" translatable="false">#1299CC00</string>
+
+  <color name="background_color">#151516</color>
+  <color name="tab_item_color">#01d444</color>
+  <color name="texts_color">#01d444</color>
+
+  <color name="white">#ffffff</color>
+  <color name="gray">#E6E3E3</color>
+  <color name="menu_background">#383838</color>
+
+  <color name="box_color">#a5a4a4</color>
+
+  <color name="blue">#00bdff</color>
+  <color name="dark_yellow"> #ffaa00</color>
+  <color name="red">#ff0600</color>
+  <color name="polylinecolor">#f45a59</color>
+  <color name="yellow">#e0ff00</color>
+  <color name="dark_pink">#ea60e4</color>
+  <color name="purple">#8c47dd</color>
+  <color name="orange">#FFA500</color>
+
+  <color name="black">#000000</color>
+    <color name="speed_needle_color">#ff0000</color>
+</resources>

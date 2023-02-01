@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_Relative_layout_analog"
+    android:background="@drawable/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.wonderapps.speedometer.Fragments.AnalogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="270dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/digitallayout"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/speedometer_two_fourty"
+        >
+
+        <com.wonderapps.speedometer.ImageSpeedometer
+            android:id="@+id/imageSpeedometer"
+            android:layout_width="200sp"
+            android:layout_height="100dp"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorWidth="14dp"
+            app:sv_indicatorColor="#A7BC0C0C"
+            app:sv_speedTextColor="#fff"
+            app:sv_unitTextColor="#fff"
+            app:sv_maxSpeed="240"
+            app:sv_minSpeed="0"
+            app:sv_startDegree="220"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/digitallayout"
+        android:id="@+id/mphbuttons"
+        >
+        <ImageView
+
+            android:id="@+id/kmphbtn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/carselector"
+            android:layout_marginRight="100dp"
+            android:layout_gravity="center_horizontal"
+
+
+            />
+        <ImageView
+            android:id="@+id/mphbtn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/cycleselector"
+            android:layout_gravity="center_horizontal"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonsbottom"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/mphbuttons"
+        >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/buttonsselector"
+            android:paddingBottom="0dp"
+            android:text="Start"
+            android:visibility="gone"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/buttonsselector"
+            android:text="Pause"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonsselector"
+            android:text="Stop"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/hud_analog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonsselector"
+            android:text="HUD"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/buttonsbottom"
+        >
+
+        <com.wonderapps.speedometer.DigitSpeedView
+            android:id="@+id/speed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            app:speed="0"
+            android:visibility="gone"
+            app:speedTextSize="25dp"
+            app:speedTextColor="#DBC311"
+            app:unitTextColor="#DBC311"
+            app:unit="Km/h"
+            app:unitTextSize="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

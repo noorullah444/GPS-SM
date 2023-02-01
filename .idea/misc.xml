@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable-hdpi/animalstonesselector.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable-hdpi/findlostphoneselector.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable-hdpi/photoeditorselector.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable-hdpi/textonpicselector.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/custom_button.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/custom_button_empty.xml" value="0.20104166666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/cycleselector.xml" value="0.20104166666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/digital_speedometer_bg.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/gradient.xml" value="0.35885416666666664" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/green_battery.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/green_speedometer_kmph.xml" value="0.5" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/green_speedometer_knots.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/green_speedometer_mph.xml" value="0.35885416666666664" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/greetingscardselector.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/ic_back.xml" value="0.35885416666666664" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/ic_charging.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/orange_speedometer_knots.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/orange_speedometer_mph.xml" value="0.35188968335035753" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/drawable/theme_circle_blue.xml" value="0.35885416666666664" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout-land/activity_splash.xml" value="0.28458844133099825" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout-land/fragment_digital.xml" value="0.28458844133099825" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_exit.xml" value="0.25" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_history.xml" value="0.16397578203834512" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_main.xml" value="0.16397578203834512" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_ratings.xml" value="0.16397578203834512" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_resume_map.xml" value="0.16397578203834512" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_settings.xml" value="0.33" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/activity_splash.xml" value="0.16397578203834512" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/deletion_dailog.xml" value="0.25" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/digit_speed_view.xml" value="0.3385416666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/fragment_analog.xml" value="0.18072916666666666" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/fragment_digital.xml" value="0.22509057971014493" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/fragment_graph.xml" value="0.3385416666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/item_history.xml" value="0.3385416666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/save_track_dailog.xml" value="0.3385416666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/toolbar.xml" value="0.3385416666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/layout/update_record_dailog.xml" value="0.3385416666666667" />
+        <entry key="..\:/NoorUllah/AndroidStudioProjects/SpeedoMeter/Speedo Meter/app/src/main/res/menu/options.xml" value="0.3385416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

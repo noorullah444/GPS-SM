@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "com.wonderapps.speedometergps"
+        minSdkVersion 21
+        targetSdkVersion 31
+
+        versionCode 83
+        versionName "1.8.2"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            // test ad ids
+            resValue "string", "app_id", "ca-app-pub-3940256099942544~3347511713"
+            resValue "string", "admob_banner_ad_id", "ca-app-pub-3940256099942544/6300978111"
+            resValue "string", "admob_native_ad_id", "ca-app-pub-3940256099942544/2247696110"
+            resValue "string", "admob_interstitial_ad_id", "ca-app-pub-3940256099942544/1033173712"
+            resValue "string", "admob_interstitial_ad_id_splash", "ca-app-pub-3940256099942544/1033173712"
+
+        }
+
+        release {
+            // original ad ids
+            resValue "string", "app_id", "ca-app-pub-3612093051527159~8641556596"
+            resValue "string", "admob_banner_ad_id", "ca-app-pub-3612093051527159/8362462790"
+            resValue "string", "admob_native_ad_id", "ca-app-pub-3612093051527159/9088833361"
+            resValue "string", "admob_interstitial_ad_id", "ca-app-pub-3612093051527159/9483972779"
+            resValue "string", "admob_interstitial_ad_id_splash", "ca-app-pub-3612093051527159/9100829397"
+
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
+
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.core:core-ktx:1.8.0-alpha01'
+    implementation 'androidx.work:work-runtime:2.7.1'
+
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.4.0"
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    // firebase
+    implementation 'com.google.firebase:firebase-analytics:20.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.5'
+    implementation 'com.google.firebase:firebase-core:20.0.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    // Play core library
+    implementation "com.google.android.play:core:1.10.2"
+
+    // google ads
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+
+    // mediation facebook
+    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
+
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.30"
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    implementation 'com.redinput.compassview:compassview:1.0'
+    implementation 'com.github.art2limit:Compass-View:1.0.3'
+
+    // glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+}
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}

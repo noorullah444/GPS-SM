@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/digit_speed_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:layout_marginEnd="25dp"
+    >
+
+    <TextView
+        android:id="@+id/digit_speed_bg"
+        android:text="@string/zero"
+        android:includeFontPadding="false"
+        android:textColor="@color/light_grey_trasparent"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/digit_speed"
+        android:text="220"
+        android:includeFontPadding="false"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@color/texts_color"
+        android:textColor="@color/texts_color"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/digit_speed_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/green"
+        android:textColor="@color/texts_color"
+        android:textSize="20sp"
+        android:text="@string/km_per_hr"
+        android:includeFontPadding="false"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/digit_speed"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false" />
+
+</RelativeLayout>
